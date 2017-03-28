@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+	width:100%;
+	height:70px;
+	background-color:#F5F5F5;
+}
+.header h1{
+	position:relative;
+	top:10px;
+	left:200px;
+	font-weight:600;
+	color:#FF9501;
+}
+.header a{
+	position:relative;
+	left:1200px;
+	margin-right:150px;
+	bottom:5px;
+	color:#6c6c6c;
+}
+.header #back{
+	color:#6c6c6c;
+}
+.header #tao_user:hover{
+	color:#FF4400;
+}
+.header #back:hover{
+	color:#FF4400;
+}
+body{
+	background-color:white;
+	width:100%;
+}
+body h2{
+	position:absolute;
+	left:350px;
+	top:100px;
+	font-weight:400;
+	color:#5c5c5c;
+}
+.loginview{
+   width:820px;
+   height:900px;
+ 
+   border:0px solid black;
+   border-radius:5px;
+   position:relative;
+   top:50px;
+   left:500px;
+}
+.loginview .infor{
+	width:400px;
+	height:800px;
+	border:0px solid black;
+	font-size:20px;
+	text-align:left;
+	font-weight:300;
+	line-height:80px;
+	position:absolute;
+	top:50px;
+	left:100px;
+}
+.button{
+	
+   float: left;
+    /*设置字体样式*/
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+    background-color:#E60012;
+    border:0px;
+    width:120px;
+    height:40px;
+    position: relative;
+    top:40px;
+    cursor:pointer;
+}
+.button:hover{
+	background-color:#F52B00;
+	
+}
+#spe{
+	position:relative;
+	bottom:0px;
+	left:60px;
+}
+

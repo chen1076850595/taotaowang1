@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+	width:100%;
+	height:70px;
+	background-color:#F5F5F5;
+}
+.header h1{
+	position:relative;
+	top:10px;
+	left:200px;
+	font-weight:600;
+	color:#FF9501;
+}
+.header a{
+	position:relative;
+	left:1250px;
+	margin-right:20px;
+	bottom:5px;
+	color:#6c6c6c;
+}
+.header a:hover{
+	color:#FF4400;
+}
+.search{
+	width:600px;
+	height:45px;
+	background-color:#FF4200;
+	position:relative;
+	left:460px;
+	top:50px;
+}
+  .search #search{
+      width:475px;
+      height:39px;
+      margin:3px 0 0 3px;
+      text-indent:15px;
+      border:0px;
+  }
+  .search .button{
+     border:0px;
+      width:120px;
+      height:45px;
+      background-color:#FF4200;
+      position:absolute;
+      right:0;
+      top:0;
+      text-align:center;
+      line-height:45px;
+      color:#f5f5f5;
+      font-size:18px;
+      font-family:宋体;
+  
+  }
+  .search .button:hover{
+      background-color:#F52B00;
+  }
+  .buy{
+       height:1400px;
+       width:1000px;
+       background-color:#F5F5F5;
+       margin:90px;
+  }
+  
+  .buy figure {
+    border: 2px solid #ddd;
+    display: inline-block;
+    width: 280px;
+    padding: 4px;
+    text-align: left;
+    margin: 15px 12px;
+    position: relative;
+    -webkit-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.buy figure:hover {
+    -webkit-transform: rotate(0deg) scale(1.0);
+    transform: rotate(0deg) scale(1.0);
+    border:2px solid red;
+    opacity:0.8;
+
+}
+.buy img{
+	width:280px;
+	height:300px;
+}
+.buy figcaption {
+    color: #777;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 7px 0 5px 0;
+}
+
+.buy .title {
+    color: #333;
+    /*去掉加粗样式*/
+    font-weight: normal;
+}
+
+.buy .sat {
+    float: right;
+    /*设置字体样式*/
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+    background-color:#E60012;
+    border:0px;
+    width:120px;
+    height:40px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    cursor:pointer;
+}
+.buy .sat:hover{
+	background-color:#F52B00;
+	
+}
+
+.buy .price {
+    color: #f60;
+    font-size: 14px;
+}
+
+.buy .price strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.buy .type {
+    width: 90px;
+    height: 25px;
+    background-color: #59b200;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+  
+  #nav { 
+    width:70px;
+    height: 80px; 
+    border: 0px solid #D4CD49; 
+    position:fixed;
+    right:100px;
+    bottom:25%;
+   	background-image:url(./images/cart.png) ;
+	background-repeat:no-repeat;
+	background-size:100%;
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+
+   
+
+
+    
+    #nav a{
+    display:block;
+    width:70px;
+    height:70px;
+    position:relative;
+
+
+    }
+    #back{
+     width:170px;
+     height: 180px; 
+     border: 0px solid #D4CD49; 
+     position:fixed;
+     right:43px;
+     bottom:3%;
+     background-image:url(./images/back.png) ;
+	 background-repeat:no-repeat;
+	 background-size:100%;
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    }
+    #back a{
+    display:block;
+    width:70px;
+    height:70px;
+  
+    position:relative;
+    top:46px;
+    left:46px;
+    }
+    #nav:hover{
+     -webkit-transform: rotate(0deg) scale(1.2);
+    transform: rotate(0deg) scale(1.2);
+    }
+    #back:hover{
+       -webkit-transform: rotate(0deg) scale(1.05);
+    transform: rotate(0deg) scale(1.05);
+    }
+  
